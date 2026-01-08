@@ -34,7 +34,7 @@ sections:
         title: English Test's
         description: Test's
         icon: fas fa-wrench
-        url: https://toets.toa.nl
+        url: https://toa.toets.nl
         target: newtab
         id: 3_616_englishtests
     filteredItems:
