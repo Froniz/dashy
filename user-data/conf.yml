@@ -27,7 +27,7 @@ sections:
         title: Math Software
         description: Math Software
         icon: far fa-book
-        target: ''
+        target: newtab
         url: https://malmberg.nl/mbo/methodes/rekenen/rekenblokken
         id: 2_616_mathsoftware
       - &ref_3
