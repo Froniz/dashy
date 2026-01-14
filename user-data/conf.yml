@@ -37,8 +37,23 @@ sections:
         url: https://toa.toets.nl
         target: newtab
         id: 3_616_englishtests
+      - &ref_4
+        title: Lessonup
+        description: School version of kahoot
+        icon: https://lessonup.app/
+        url: https://lessonup.app/
+        target: newtab
+        id: 4_616_lessonup
+      - &ref_5
+        title: Kahoot
+        icon: https://kahoot.it
+        url: https://kahoot.it
+        target: newtab
+        id: 5_616_kahoot
     filteredItems:
       - *ref_0
       - *ref_1
       - *ref_2
       - *ref_3
+      - *ref_4
+      - *ref_5
