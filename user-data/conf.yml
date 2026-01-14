@@ -67,22 +67,24 @@ sections:
     items:
       - &ref_6
         title: Roster
+        description: Rostah CID
         icon: favicon
-        url: >-
-          https://docs.google.com/spreadsheets/d/1I6UeQDYbbacokD5vdADEz78wSXY_3R53ST8R0u47cWE/edit
+        url: https://docs.google.com/spreadsheets/d/1I6UeQDYbbacokD5vdADEz78wSXY_3R53ST8R0u47cWE/edit
         target: newtab
         id: 0_760_roster
       - &ref_7
         title: Webhook Sender
+        description: Discohook webhook sender
         icon: favicon
         url: https://discohook.app
         target: newtab
         id: 1_760_webhooksender
       - &ref_8
         title: CID Docs GDrive
+        description: Google Drive CID Docs
         icon: favicon
-        url: >-
-          https://drive.google.com/drive/folders/1vfz0MIuCwLCPp1IoLn-SNs1LY5dFUt_A?ths=true
+        url: https://drive.google.com/drive/folders/1vfz0MIuCwLCPp1IoLn-SNs1LY5dFUt_A?ths=true
+        target: newtab
         id: 2_760_ciddocsgdrive
     filteredItems:
       - *ref_6
