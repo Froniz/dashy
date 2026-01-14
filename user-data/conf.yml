@@ -88,3 +88,73 @@ sections:
       - *ref_6
       - *ref_7
       - *ref_8
+  - name: Social
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_9
+        title: Insta
+        icon: favicon
+        url: https://instagram.com
+        target: newtab
+        id: 0_603_insta
+    filteredItems:
+      - *ref_9
+        url: https://toa.toets.nl
+        target: newtab
+        id: 3_616_englishtests
+      - &ref_4
+        title: Lessonup
+        description: School version of kahoot
+        icon: favicon
+        url: https://lessonup.app
+        target: newtab
+        id: 4_616_lessonup
+      - &ref_5
+        title: Kahoot
+        icon: favicon
+        url: https://kahoot.it
+        target: newtab
+        id: 5_616_kahoot
+    filteredItems:
+      - *ref_0
+      - *ref_1
+      - *ref_2
+      - *ref_3
+      - *ref_4
+      - *ref_5
+  - name: CID Stuff
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_6
+        title: Roster
+        icon: favicon
+        url: >-
+          https://docs.google.com/spreadsheets/d/1I6UeQDYbbacokD5vdADEz78wSXY_3R53ST8R0u47cWE/edit
+        target: newtab
+        id: 0_760_roster
+      - &ref_7
+        title: Webhook Sender
+        icon: favicon
+        url: https://discohook.app
+        target: newtab
+        id: 1_760_webhooksender
+      - &ref_8
+        title: CID Docs GDrive
+        icon: favicon
+        url: >-
+          https://drive.google.com/drive/folders/1vfz0MIuCwLCPp1IoLn-SNs1LY5dFUt_A?ths=true
+        id: 2_760_ciddocsgdrive
+    filteredItems:
+      - *ref_6
+      - *ref_7
+      - *ref_8
