@@ -2,7 +2,7 @@ pageInfo:
   title: Start Page
   description: Leroy's Home Page
 appConfig:
-  theme: colorful
+  theme: material-dark
   layout: auto
   iconSize: medium
 sections:
