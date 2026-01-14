@@ -5,6 +5,59 @@ appConfig:
   theme: material-dark
   layout: auto
   iconSize: medium
+  startingView: default
+  defaultOpeningMethod: newtab
+  statusCheck: false
+  statusCheckInterval: 0
+  faviconApi: allesedv
+  routingMode: history
+  enableMultiTasking: false
+  widgetsAlwaysUseProxy: false
+  webSearch:
+    disableWebSearch: false
+    searchEngine: duckduckgo
+    openingMethod: newtab
+    searchBangs: {}
+  enableFontAwesome: true
+  enableMaterialDesignIcons: false
+  hideComponents:
+    hideHeading: false
+    hideNav: false
+    hideSearch: false
+    hideSettings: false
+    hideFooter: false
+  auth:
+    enableGuestAccess: false
+    users: []
+    enableOidc: true
+    oidc:
+      endpoint: >-
+        https://tcnetwk.cloudflareaccess.com/cdn-cgi/access/sso/oidc/bdf8df0124d16f925b8f539773b87833c24f044bc8008f5363517eca0e2d1af5/authorization
+      clientId: bdf8df0124d16f925b8f539773b87833c24f044bc8008f5363517eca0e2d1af5
+      adminRole: 'false'
+      adminGroup: 'false'
+        scopes:
+          - 'openid'
+          - 'profile'
+          - 'roles'
+          - 'email'
+          - 'groups'
+    enableHeaderAuth: false
+    headerAuth:
+      userHeader: REMOTE_USER
+      proxyWhitelist: []
+    enableKeycloak: false
+  showSplashScreen: false
+  preventWriteToDisk: false
+  preventLocalSave: false
+  disableConfiguration: false
+  disableConfigurationForNonAdmin: false
+  allowConfigEdit: true
+  enableServiceWorker: false
+  disableContextMenu: false
+  disableUpdateChecks: false
+  disableSmartSort: false
+  enableErrorReporting: false
 sections:
   - name: School
     icon: fas fa-rocket
@@ -69,7 +122,8 @@ sections:
         title: Roster
         description: Rostah CID
         icon: favicon
-        url: https://docs.google.com/spreadsheets/d/1I6UeQDYbbacokD5vdADEz78wSXY_3R53ST8R0u47cWE/edit
+        url: >-
+          https://docs.google.com/spreadsheets/d/1I6UeQDYbbacokD5vdADEz78wSXY_3R53ST8R0u47cWE/edit
         target: newtab
         id: 0_760_roster
       - &ref_7
@@ -83,7 +137,8 @@ sections:
         title: CID Docs GDrive
         description: Google Drive CID Docs
         icon: favicon
-        url: https://drive.google.com/drive/folders/1vfz0MIuCwLCPp1IoLn-SNs1LY5dFUt_A?ths=true
+        url: >-
+          https://drive.google.com/drive/folders/1vfz0MIuCwLCPp1IoLn-SNs1LY5dFUt_A?ths=true
         target: newtab
         id: 2_760_ciddocsgdrive
     filteredItems:
